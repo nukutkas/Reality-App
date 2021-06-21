@@ -8,7 +8,7 @@
 import UIKit
 import RealityKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5B79699267FBD3D00AF418E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B79698267FBD3D00AF418E /* AppDelegate.swift */; };
-		E5B7969B267FBD3D00AF418E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7969A267FBD3D00AF418E /* ViewController.swift */; };
+		E5B7969B267FBD3D00AF418E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B7969A267FBD3D00AF418E /* MainViewController.swift */; };
 		E5B7969D267FBD3D00AF418E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E5B7969C267FBD3D00AF418E /* Experience.rcproject */; };
 		E5B796A0267FBD3D00AF418E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B7969E267FBD3D00AF418E /* Main.storyboard */; };
 		E5B796A2267FBD3F00AF418E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B796A1267FBD3F00AF418E /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		E5B79695267FBD3D00AF418E /* Reality App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B79698267FBD3D00AF418E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5B7969A267FBD3D00AF418E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5B7969A267FBD3D00AF418E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E5B7969C267FBD3D00AF418E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		E5B7969F267FBD3D00AF418E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5B796A1267FBD3F00AF418E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E5B79698267FBD3D00AF418E /* AppDelegate.swift */,
-				E5B7969A267FBD3D00AF418E /* ViewController.swift */,
+				E5B7969A267FBD3D00AF418E /* MainViewController.swift */,
 				E5B7969C267FBD3D00AF418E /* Experience.rcproject */,
 				E5B7969E267FBD3D00AF418E /* Main.storyboard */,
 				E5B796A1267FBD3F00AF418E /* Assets.xcassets */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B7969B267FBD3D00AF418E /* ViewController.swift in Sources */,
+				E5B7969B267FBD3D00AF418E /* MainViewController.swift in Sources */,
 				E5B79699267FBD3D00AF418E /* AppDelegate.swift in Sources */,
 				E5B7969D267FBD3D00AF418E /* Experience.rcproject in Sources */,
 			);
@@ -287,8 +287,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z4HK5Y82J4;
+				DEVELOPMENT_TEAM = UZZW6YBBKN;
 				INFOPLIST_FILE = "Reality App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,8 +307,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z4HK5Y82J4;
+				DEVELOPMENT_TEAM = UZZW6YBBKN;
 				INFOPLIST_FILE = "Reality App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
